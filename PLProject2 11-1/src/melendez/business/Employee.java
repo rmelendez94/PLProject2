@@ -1,4 +1,4 @@
-package melendez;
+package melendez.business;
 
 /**
  * Created by Rolando on 2/13/16.
@@ -15,7 +15,7 @@ public class Employee extends Person {
 
     @Override
     public String getDisplayText() {
-        return super.toString() + "\n" +
-                "Social security number: " + socialSecurity;
+        return (super.toString() + "\n" +
+                "Social security number: " + socialSecurity);
     }
 }

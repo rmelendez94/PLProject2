@@ -1,4 +1,4 @@
-package melendez;
+package melendez.business;
 
 /**
  * Created by Rolando on 2/12/16.

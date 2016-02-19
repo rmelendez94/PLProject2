@@ -1,21 +1,21 @@
-package melendez;
+package melendez.business;
 
 /**
  * Created by Rolando on 2/13/16.
  */
 public class Customer extends Person{
-    private int customerNumber;
+    private String customerNumber;
 
-    public void setCustomerNumber(int customerNumber) {
+    public void setCustomerNumber(String customerNumber) {
         this.customerNumber = customerNumber;
     }
-    public int getCustomerNumber() {
+    public String getCustomerNumber() {
         return customerNumber;
     }
 
     @Override
     public String getDisplayText() {
-        return super.toString() + "\n" +
-                "Customer number: " + customerNumber;
+        return (super.toString() + "\n" +
+                "Customer number: " + customerNumber);
     }
 }
