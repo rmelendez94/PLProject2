@@ -50,7 +50,8 @@ public class PersonApp {
                 Console.displayLine();
 
                 //Display the newly created employee
-                System.out.print(emp.getDisplayText());
+                Console.displayLine("You entered: ");
+                Console.displayLine(emp.getDisplayText());
                 Console.displayLine();
                 Console.displayLine();
             }
