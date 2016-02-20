@@ -1,4 +1,6 @@
-package Tu.checking;
+package Tu.business;
+import Tu.account.interfaces.Depositable;
+import Tu.account.interfaces.Withdrawable;
 
 /**
  * Created by Chia-LinCatherine on 2/19/2016.
