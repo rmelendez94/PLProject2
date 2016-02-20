@@ -6,6 +6,11 @@ package melendez.business;
 public class Employee extends Person {
     private String socialSecurity;
 
+    public Employee(){
+        super();
+        socialSecurity = "";
+    }
+
     public void setSocialSecurity(String socialSecurity) {
         this.socialSecurity = socialSecurity;
     }

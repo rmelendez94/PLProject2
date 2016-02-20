@@ -6,6 +6,11 @@ package melendez.business;
 public class Customer extends Person{
     private String customerNumber;
 
+    public Customer(){
+        super();
+        customerNumber = "";
+    }
+
     public void setCustomerNumber(String customerNumber) {
         this.customerNumber = customerNumber;
     }
